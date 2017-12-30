@@ -1,7 +1,54 @@
+body {
+	font-family: Helvetica;
+	text-align: center;
+}
+
 header {
 	background-image: url("../images/the-flatiron-building.png");
+	color: white;
+}
+
+header h1 {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+ul {
+	font-size: 18px;
+	list-style: none;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 14px;
 }
 
 #newyork {
 	background-image: url("../images/the-flatiron-building.png");
+	color: white;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+footer {
+	background-color: dimgray;
+	color: white;
+	text-align: left;
+}
+
+footer p {
+	font-size: 11px;
+	display: inline;
+}
+
+footer ul {
+	display: inline;
+}
+
+footer ul li {
+	display: inline;
 }
